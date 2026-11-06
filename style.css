@@ -93,3 +93,12 @@ article {
     --bg:        #0d1117;  /* 背景颜色 */
     --cart-bg:   #161b22;  /* article背景颜色 */
 }
+
+@media (max-width:480px){
+    body{
+        padding: 24px 12px 48px;
+    }
+    article{
+        padding: 16px;
+    }
+}
