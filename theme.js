@@ -1,5 +1,5 @@
 //1、找到按钮
-const btn=document.querySelector("#theme-toggl");
+const btn=document.querySelector("#theme-toggle");
 //2、给按钮装指令，被点击时，执行大括号里的代码
 btn.addEventListener("click",function(){
     //3、查看html上有没有dark类，contains返回True/False
