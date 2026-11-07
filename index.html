@@ -14,24 +14,25 @@
     <header id="top">
         <img src="avatar.png" alt="付一峰的头像（小狐狸）" width="120" height="120">
         <h1>付一峰</h1>
+        <button type="button" id="theme-toggle">切换主题</button>
         <p>广西职业师范学院 · 物联网工程专业 · 2027 届大四学生</p>
         <nav>
-            <a href="#about">关于我</a> |
-            <a href="#projects">我的项目</a> |
+            <a href="#about">个人简介</a> |
+            <a href="#projects">项目经历</a> |
             <a href="#github">GitHub</a>
-            <button type="button" id="theme-toggle">切换主题</button>
+
         </nav>
     </header>
 
 
     <main>
         <section id="about">
-            <h2>关于我</h2>
+            <h2>个人简介</h2>
             <p>我是付一峰，广西职业师范学院物联网工程专业大四学生。对嵌入式开发、传感器数据采集和物联网系统搭建感兴趣，目前正在学习 vibe coding 开发，练习用 HTML 等基础技术把想法做成可以运行的页面。</p>
             <p>在校期间主要学习电路与电子技术、单片机原理、传感器技术、计算机网络和程序设计等课程，习惯从硬件接线、数据采集到上位机展示完整地走一遍项目流程。</p>
             <h3>掌握的技能</h3>
             <ul>
-                <li>编程语言：C、Python、HTML</li>
+                <li>编程语言：C、Python、Java、HTML+CSS+JS</li>
                 <li>硬件平台：STM32、ESP32、Arduino</li>
                 <li>相关技术：传感器数据采集、串口通信、Wi-Fi 联网、简单网页搭建</li>
             </ul>
@@ -40,26 +41,21 @@
 
 
         <section id="projects">
-            <h2>我的项目</h2>
+            <h2>项目经历</h2>
 
             <article>
                 <h3>个人作品集网站</h3>
-                <p>使用纯 HTML 语义化标签搭建的个人介绍页面，包含头像、个人简介、项目展示和 GitHub 链接，不使用 CSS 和 JavaScript，用来练习页面结构与内容组织，也是 vibe coding 学习的第一个实践成果。</p>
-                <p>技术栈：HTML5、语义化标签、锚点导航</p>
+                <p>使用HTML5+CSS+JS搭建的个人介绍页面，包含头像、个人简介、项目展示和 GitHub 链接，是 vibe coding 学习的第一个实践成果。</p>
+                <p>技术栈：HTML5+CSS+JS、语义化标签、锚点导航</p>
             </article>
 
             <!-- 以下为示例项目，请替换成你做过的真实项目 -->
             <article>
-                <h3>基于 ESP32 的温湿度环境监测系统</h3>
-                <p>用 DHT11 传感器采集环境温湿度，ESP32 通过 Wi-Fi 把数据上传到局域网页面，并在 OLED 屏上实时显示，超过设定阈值时点亮提示灯。</p>
-                <p>技术栈：ESP32、DHT11、OLED、Wi-Fi、C</p>
+                <h3>学生管理系统</h3>
+                <p>完成学生信息的增删改查</p>
+                <p>技术栈：FastAPI</p>
             </article>
 
-            <article>
-                <h3>智能家居控制原型</h3>
-                <p>以 MQTT 协议连接 ESP32 与手机端，实现 LED 灯和继电器的远程开关，并回传设备当前状态，作为物联网系统课程设计的综合实践。</p>
-                <p>技术栈：ESP32、MQTT、Python、传感器与执行器</p>
-            </article>
         </section>
 
 
